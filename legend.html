@@ -16,21 +16,21 @@
       box-sizing: border-box;
       text-align: center;
       align-items: center;
-      }
+    }
 
-      .bg{
-        background-image: url("Images/bg.jpg");
-        background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
+    .bg {
+      background-image: url("./Images/bg.jpg");
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
 
-      }
+    }
 
     #head {
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       text-shadow: 100rem;
       color: rgb(147, 238, 94);
-      text-decoration: underline  ;
+      text-decoration: underline;
     }
 
     #subhead {
@@ -55,9 +55,9 @@
       box-shadow: 0 9px #999;
       position: relative;
       top: 10px;
-      
- 
-      
+
+
+
 
     }
 
@@ -81,7 +81,7 @@
     #overlay7,
     #overlay8,
     #overlay9 {
-      
+
       display: none;
       left: 0;
       top: 0;
@@ -106,840 +106,846 @@
     }
 
     @media screen and (max-width: 862px) {
-  .button {
-    width: 40%;
-    padding: 10px 20px;
-  }
-}
+      .button {
+        width: 40%;
+        padding: 10px 20px;
+      }
+    }
 
-      @media screen and (max-width: 600px) {
-        #head{
-          font-size:25px;
-        }
-        #subhead{
-          font-size: 15px;
-        }
-        .button{
-            width: 50%;
-            padding: 10px 20px;
-          }
+    @media screen and (max-width: 600px) {
+      #head {
+        font-size: 25px;
       }
 
-      @media screen and (max-width: 476px) {
-        .expanded {
+      #subhead {
+        font-size: 15px;
+      }
+
+      .button {
+        width: 50%;
+        padding: 10px 20px;
+      }
+    }
+
+    @media screen and (max-width: 476px) {
+      .expanded {
         padding: 5px;
         width: 70%;
         left: 15%;
         font-size: 15px;
-        }
       }
-      @media screen and (max-width: 350px) {
-        .expanded {
+    }
+
+    @media screen and (max-width: 350px) {
+      .expanded {
         padding: 3px;
         width: 70%;
         left: 15%;
         font-size: 10px;
-        }
       }
-    
-      /*---Navigation Bar Style---*/
-      
-      .nav-item {
-        padding-left: 10px;
-        padding-right: 10px;
-        font-family: "Lato", sans-serif;
-        text-transform: uppercase;
-        }
+    }
 
-        .nav-link {
-            font-size: 15px;
-            display: block;
-            padding: .5rem 1rem;
-            font-weight: 600; 
-            border-bottom: solid #479BBE; 
-            border-radius: 0.5em;
-            color:white !important;
-        }
+    /*---Navigation Bar Style---*/
 
-        .navbar-nav .nav-link {
-            padding-right: 0;
-            padding-left: 0;
-        }
+    .nav-item {
+      padding-left: 10px;
+      padding-right: 10px;
+      font-family: "Lato", sans-serif;
+      text-transform: uppercase;
+    }
 
-        .nav-link:hover {
-          background:#479BBE !important;
-          color: white;
-          border-color:  #479BBE;
-        }
+    .nav-link {
+      font-size: 15px;
+      display: block;
+      padding: .5rem 1rem;
+      font-weight: 600;
+      border-bottom: solid #479BBE;
+      border-radius: 0.5em;
+      color: white !important;
+    }
 
-        .dropdown2:hover>.dropdown-content {
-            position: relative;
-            display: block;
-            padding: 0.2em;
-        }
+    .navbar-nav .nav-link {
+      padding-right: 0;
+      padding-left: 0;
+    }
 
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #0F111B ;
-            top: 10px;
-            left: 40px;
-            z-index: 1;
-            padding-top: 0;
-            min-width: 120px;
-            border: rgb(1, 173, 237) solid 1.5px;
-            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.75); 
-        }
+    .nav-link:hover {
+      background: #479BBE !important;
+      color: white;
+      border-color: #479BBE;
+    }
 
-        @media (max-width: 991px){
-        .dropdown-content {
-            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        }
-        }
-        footer {
-          display: flex;
-          justify-content: space-between;
-          padding: 1em 2em;
-          background: rgb(243, 29, 29);
-          margin-right: 1em;
-          margin-left: 1em;
-          margin-top: 1em;
-          margin-bottom: 0em;
-          color: black;
-          border-top-right-radius: 2em;
-          border-bottom-left-radius: 2em;
-          box-shadow: 5px 3px 8.37px rgba(193,93,79,.2);
-        }
+    .dropdown2:hover>.dropdown-content {
+      position: relative;
+      display: block;
+      padding: 0.2em;
+    }
 
-        footer a:link, footer a:visited {
-          color: white;
-          font-weight: 900;
-          text-decoration: underline;
-          text-decoration-color:  #479BBE;
-        }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #0F111B;
+      top: 10px;
+      left: 40px;
+      z-index: 1;
+      padding-top: 0;
+      min-width: 120px;
+      border: rgb(1, 173, 237) solid 1.5px;
+      box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.75);
+    }
 
-        footer a:hover {
-          color:  #479BBE;
-          text-decoration-color: white;
-        }
+    @media (max-width: 991px) {
+      .dropdown-content {
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      }
+    }
 
-      /*---Navigation Bar Style Ends---*/
-      
+    footer {
+      display: flex;
+      justify-content: space-between;
+      padding: 1em 2em;
+      background: rgb(243, 29, 29);
+      margin-right: 1em;
+      margin-left: 1em;
+      margin-top: 1em;
+      margin-bottom: 0em;
+      color: black;
+      border-top-right-radius: 2em;
+      border-bottom-left-radius: 2em;
+      box-shadow: 5px 3px 8.37px rgba(193, 93, 79, .2);
+    }
+
+    footer a:link,
+    footer a:visited {
+      color: white;
+      font-weight: 900;
+      text-decoration: underline;
+      text-decoration-color: #479BBE;
+    }
+
+    footer a:hover {
+      color: #479BBE;
+      text-decoration-color: white;
+    }
+
+    /*---Navigation Bar Style Ends---*/
   </style>
 </head>
 
-<body class="bg" >
-    
-    <!---Navigation Bar--->
+<body class="bg">
 
-    <nav class="navbar navbar-expand-lg navbar-sticky navbar-dark mb-3" style="background:black; border-radius: 0.8em; top: 0.6vh; left: 0.6vw;
+  <!---Navigation Bar--->
+
+  <nav class="navbar navbar-expand-lg navbar-sticky navbar-dark mb-3" style="background:black; border-radius: 0.8em; top: 0.6vh; left: 0.6vw;
     z-index: 100; ">
-        <button class="navbar-toggler" id="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="color:white;">
-            <span class="navbar-toggler-icon" style="color:white;"></span>
-        </button>
-    
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="homenew.html">Home</a>
-                </li>
-                <li id="dropdown2" class="nav-item dropdown2 ">
-                    <a class="nav-link" href="gallery.html">Gallery</a>
-                </li>
-                <li class="nav-item active ">
-                    <a class="nav-link" href="legend.html">Legends</a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="https://gymkhana.iitb.ac.in/~hostel2/certificate.php">E-Certificates</a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="contactus.html">Council</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <button class="navbar-toggler" id="navbar-toggler" type="button" data-toggle="collapse"
+      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation" style="color:white;">
+      <span class="navbar-toggler-icon" style="color:white;"></span>
+    </button>
 
-    
-    
-  <div  >
- <h1 id="head"> Legends </h1>
-  <h4 id="subhead">We feel like we have to put on for our city , because we have so many legends and so many greats.
-    </h3>
-    <p class="button mx-auto streched-link" id="1" onclick="overlayClicked(this.id)">Freedom of the Hall</p><br>
-    <div id="overlay1" onclick="off(this.id)">
-      <div class="expanded">
-        <table class="table table-hover ">
-          <tr class="f">
-            <th>Name</th>
-            <th>Year</th>
-          </tr>
-          <tr>
-            <td>Gaganjeet Singh</td>
-            <td>2013</td>
-          </tr>
-          <tr>
-            <td>Mayank Mundhra</td>
-            <td>2012</td>
-          </tr>
-          <tr>
-            <td>Gautam Hazari</td>
-            <td>2002</td>
-          </tr>
-          <tr>
-            <td>Arvind Singhal</td>
-            <td>1997</td>
-          </tr>
-          <tr>
-            <td>M. Rajadhyaksha</td>
-            <td>1992</td>
-          </tr>
-          </tr>
-          <tr>
-            <td>Anil S. Vaidya</td>
-            <td>1986</td>
-          </tr>
-          </tr>
-          <tr>
-            <td>V.B. Kulkarni</td>
-            <td>1985</td>
-          </tr>
-        </table>
-      </div>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="homenew.html">Home</a>
+        </li>
+        <li id="dropdown2" class="nav-item dropdown2 ">
+          <a class="nav-link" href="gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item active ">
+          <a class="nav-link" href="legend.html">Legends</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="https://gymkhana.iitb.ac.in/~hostel2/certificate.php">E-Certificates</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="contactus.html">Council</a>
+        </li>
+      </ul>
     </div>
-    <p class="button mx-auto streched-link" id="2" onclick="overlayClicked(this.id)">GC / PAF Victories</p><br>
-    <div id="overlay2" onclick="off(this.id)">
-      <div class="expanded">
-        <table class="table table-hover">
-          <tr class="f">
-            <th>Name</th>
-            <th>Year</th>
-          </tr>
-          <tr>
-            <td>GC-SPORTS</td>
-            <td>2017-18</td>
-          </tr>
-          </tr>
-          <tr>
-            <td>PAF-RANBHOMI</td>
-            <td>2016-17</td>
-          </tr>
-          </tr>
-          <tr>
-            <td>GC-SPORTS</td>
-            <td>2016-17</td>
-          </tr>
-          </tr>
-          <tr>
-            <td>PAF-EKLA CHOLO RE</td>
-            <td>2013-14</td>
-          </tr>
-          <tr>
-            <td>GC-CULT</td>
-            <td>2012-13</td>
-          </tr>
-          <tr>
-            <td>GC-CULT</td>
-            <td>2011-12</td>
-          </tr>
-          <tr>
-            <td>PAF-THE GOLDEN QUADRILATERAL</td>
-            <td>2011</td>
-          </tr>
-          <tr>
-            <td>GC-TECH</td>
-            <td>2010-11</td>
-          </tr>
-          <tr>
-            <td>GC-CULT</td>
-            <td>2010-11</td>
-          </tr>
-          <tr>
-            <td>GC-TECH</td>
-            <td>2009-10</td>
-          </tr>
-          <tr>
-            <td>PAF-ARTHUR ROAD</td>
-            <td>2009</td>
-          </tr>
-          <tr>
-            <td>GC-SPORTS</td>
-            <td>2002-03</td>
-          </tr>
-          <tr>
-            <td>PAF</td>
-            <td>2001</td>
-          </tr>
-          <tr>
-            <td>GC</td>
-            <td>2000-01</td>
-          </tr>
-          <tr>
-            <td>GC-CULT</td>
-            <td>2000-01</td>
-          </tr>
-          <tr>
-            <td>GC-CULT</td>
-            <td>1999-2000</td>
-          </tr>
-          <tr>
-            <td>PAF</td>
-            <td>1998</td>
-          </tr>
-          <tr>
-            <td>GC-SPORTS</td>
-            <td>1997-98</td>
-          </tr>
-          
-        </table>
+  </nav>
+
+
+
+  <div>
+    <h1 id="head"> Legends </h1>
+    <h4 id="subhead">We feel like we have to put on for our city , because we have so many legends and so many greats.
+      </h3>
+      <p class="button mx-auto streched-link" id="1" onclick="overlayClicked(this.id)">Freedom of the Hall</p><br>
+      <div id="overlay1" onclick="off(this.id)">
+        <div class="expanded">
+          <table class="table table-hover ">
+            <tr class="f">
+              <th>Name</th>
+              <th>Year</th>
+            </tr>
+            <tr>
+              <td>Gaganjeet Singh</td>
+              <td>2013</td>
+            </tr>
+            <tr>
+              <td>Mayank Mundhra</td>
+              <td>2012</td>
+            </tr>
+            <tr>
+              <td>Gautam Hazari</td>
+              <td>2002</td>
+            </tr>
+            <tr>
+              <td>Arvind Singhal</td>
+              <td>1997</td>
+            </tr>
+            <tr>
+              <td>M. Rajadhyaksha</td>
+              <td>1992</td>
+            </tr>
+            </tr>
+            <tr>
+              <td>Anil S. Vaidya</td>
+              <td>1986</td>
+            </tr>
+            </tr>
+            <tr>
+              <td>V.B. Kulkarni</td>
+              <td>1985</td>
+            </tr>
+          </table>
+        </div>
       </div>
-    </div>
-    <p class="button mx-auto streched-link" id="3" onclick="overlayClicked(this.id)">Cultural Scroll</p><br>
-    <div id="overlay3" onclick="off(this.id)">
-      <div class="expanded">
-        <table class="table table-hover">
-          <tr class="f">
-            <th>Name</th>
-            <th>Year</th>
-          </tr>
-          <tr>
-            <td>Ankit Khetrapal</td>
-            <td>2016</td>
-          </tr>
-          <tr>
-            <td>Somesh Yadav</td>
-            <td>2016</td>
-          </tr>
-          <tr>
-            <td>Pushkar Pandit</td>
-            <td>2015</td>
-          </tr>
-          <tr>
-            <td>Aditya Balla</td>
-            <td>2013</td>
-          </tr>
-          <tr>
-            <td>Ajinkya Bhasme</td>
-            <td>2012</td>
-          </tr>
-          <tr>
-            <td>Karan Kumbhare</td>
-            <td>2012</td>
-          </tr>
-          <tr>
-            <td>B.Aditya</td>
-            <td>2002</td>
-          </tr>
-          <tr>
-            <td>Amit Pathak</td>
-            <td>2002</td>
-          </tr>
-          <tr>
-            <td>Bharat Garg</td>
-            <td>2001</td>
-          </tr>
-          <tr>
-            <td>Nikhil Mittal</td>
-            <td>2000</td>
-          </tr>
-          <tr>
-            <td>Abraham Thomas</td>
-            <td>1998</td>
-          </tr>
-          <tr>
-            <td>C.Surendranath</td>
-            <td>1996</td>
-          </tr>
-          <tr>
-            <td>Rajendra Walia</td>
-            <td>1992</td>
-          </tr>
-          <tr>
-            <td>Rajeev Nair</td>
-            <td>1989</td>
-          </tr>
-          <tr>
-            <td>Ravi Gopinath</td>
-            <td>1988</td>
-          </tr>
-          <tr>
-            <td>Mrugank Pranjpe</td>
-            <td>1987</td>
-          </tr>
-          <tr>
-            <td>Varun Ngaraj </td>
-            <td>1986</td>
-          </tr>
-          <tr>
-            <td>Parth Dutt Gupta</td>
-            <td>1985</td>
-          </tr>
-        </table>
+      <p class="button mx-auto streched-link" id="2" onclick="overlayClicked(this.id)">GC / PAF Victories</p><br>
+      <div id="overlay2" onclick="off(this.id)">
+        <div class="expanded">
+          <table class="table table-hover">
+            <tr class="f">
+              <th>Name</th>
+              <th>Year</th>
+            </tr>
+            <tr>
+              <td>GC-SPORTS</td>
+              <td>2017-18</td>
+            </tr>
+            </tr>
+            <tr>
+              <td>PAF-RANBHOMI</td>
+              <td>2016-17</td>
+            </tr>
+            </tr>
+            <tr>
+              <td>GC-SPORTS</td>
+              <td>2016-17</td>
+            </tr>
+            </tr>
+            <tr>
+              <td>PAF-EKLA CHOLO RE</td>
+              <td>2013-14</td>
+            </tr>
+            <tr>
+              <td>GC-CULT</td>
+              <td>2012-13</td>
+            </tr>
+            <tr>
+              <td>GC-CULT</td>
+              <td>2011-12</td>
+            </tr>
+            <tr>
+              <td>PAF-THE GOLDEN QUADRILATERAL</td>
+              <td>2011</td>
+            </tr>
+            <tr>
+              <td>GC-TECH</td>
+              <td>2010-11</td>
+            </tr>
+            <tr>
+              <td>GC-CULT</td>
+              <td>2010-11</td>
+            </tr>
+            <tr>
+              <td>GC-TECH</td>
+              <td>2009-10</td>
+            </tr>
+            <tr>
+              <td>PAF-ARTHUR ROAD</td>
+              <td>2009</td>
+            </tr>
+            <tr>
+              <td>GC-SPORTS</td>
+              <td>2002-03</td>
+            </tr>
+            <tr>
+              <td>PAF</td>
+              <td>2001</td>
+            </tr>
+            <tr>
+              <td>GC</td>
+              <td>2000-01</td>
+            </tr>
+            <tr>
+              <td>GC-CULT</td>
+              <td>2000-01</td>
+            </tr>
+            <tr>
+              <td>GC-CULT</td>
+              <td>1999-2000</td>
+            </tr>
+            <tr>
+              <td>PAF</td>
+              <td>1998</td>
+            </tr>
+            <tr>
+              <td>GC-SPORTS</td>
+              <td>1997-98</td>
+            </tr>
+
+          </table>
+        </div>
       </div>
-    </div>
-    <p class="button mx-auto streched-link" id="4" onclick="overlayClicked(this.id)">Sports Scroll</p><br>
-    <div id="overlay4" onclick="off(this.id)">
-      <div class="expanded">
-        <table class="table table-hover">
-          <tr class="f">
-            <th>Name</th>
-            <th>Year</th>
-          </tr>
-          <tr>
-            <td>Kaustubh Vyas</td>
-            <td>2019</td>
-          </tr>
-          <tr>
-            <td>Amit Sachan</td>
-            <td>2018</td>
-          </tr>
-          <tr>
-            <td>Abhas Gupta</td>
-            <td>2018</td>
-          </tr>
-          <tr>
-            <td>Parthe Pardit</td>
-            <td>2016</td>
-          </tr>
-          <tr>
-            <td>Devansh Chawla</td>
-            <td>2015</td>
-          </tr>
-          <tr>
-            <td>Anand Singh</td>
-            <td>2015</td>
-          </tr>
-          <tr>
-            <td>Samarth Bansal</td>
-            <td>2013</td>
-          </tr>
-          
-        </table>
+      <p class="button mx-auto streched-link" id="3" onclick="overlayClicked(this.id)">Cultural Scroll</p><br>
+      <div id="overlay3" onclick="off(this.id)">
+        <div class="expanded">
+          <table class="table table-hover">
+            <tr class="f">
+              <th>Name</th>
+              <th>Year</th>
+            </tr>
+            <tr>
+              <td>Ankit Khetrapal</td>
+              <td>2016</td>
+            </tr>
+            <tr>
+              <td>Somesh Yadav</td>
+              <td>2016</td>
+            </tr>
+            <tr>
+              <td>Pushkar Pandit</td>
+              <td>2015</td>
+            </tr>
+            <tr>
+              <td>Aditya Balla</td>
+              <td>2013</td>
+            </tr>
+            <tr>
+              <td>Ajinkya Bhasme</td>
+              <td>2012</td>
+            </tr>
+            <tr>
+              <td>Karan Kumbhare</td>
+              <td>2012</td>
+            </tr>
+            <tr>
+              <td>B.Aditya</td>
+              <td>2002</td>
+            </tr>
+            <tr>
+              <td>Amit Pathak</td>
+              <td>2002</td>
+            </tr>
+            <tr>
+              <td>Bharat Garg</td>
+              <td>2001</td>
+            </tr>
+            <tr>
+              <td>Nikhil Mittal</td>
+              <td>2000</td>
+            </tr>
+            <tr>
+              <td>Abraham Thomas</td>
+              <td>1998</td>
+            </tr>
+            <tr>
+              <td>C.Surendranath</td>
+              <td>1996</td>
+            </tr>
+            <tr>
+              <td>Rajendra Walia</td>
+              <td>1992</td>
+            </tr>
+            <tr>
+              <td>Rajeev Nair</td>
+              <td>1989</td>
+            </tr>
+            <tr>
+              <td>Ravi Gopinath</td>
+              <td>1988</td>
+            </tr>
+            <tr>
+              <td>Mrugank Pranjpe</td>
+              <td>1987</td>
+            </tr>
+            <tr>
+              <td>Varun Ngaraj </td>
+              <td>1986</td>
+            </tr>
+            <tr>
+              <td>Parth Dutt Gupta</td>
+              <td>1985</td>
+            </tr>
+          </table>
+        </div>
       </div>
-    </div>
-    <p class="button mx-auto streched-link" id="5" onclick="overlayClicked(this.id)">Cult. Man Of The Year</p><br>
-    <div id="overlay5" onclick="off(this.id)">
-      <div class="expanded">
-        <table class="table table-hover">
-          <tr class="f">
-            <th>Name</th>
-            <th>Year</th>
-          </tr>
-          <tr>
-            <td>Abhijit Krishna</td>
-            <td>2017</td>
-          </tr>
-          <tr>
-            <td>Aatish Goyal</td>
-            <td>2015</td>
-          </tr>
-          <tr>
-            <td>Karan Kumbhare</td>
-            <td>2012</td>
-          </tr>
-          <tr>
-            <td>Gaganjeet Singh</td>
-            <td>2011</td>
-          </tr>
-          <tr>
-            <td>Amit Pathak</td>
-            <td>2001</td>
-          </tr>
-          <tr>
-            <td>Amit Pathak</td>
-            <td>2000</td>
-          </tr>
-        </table>
+      <p class="button mx-auto streched-link" id="4" onclick="overlayClicked(this.id)">Sports Scroll</p><br>
+      <div id="overlay4" onclick="off(this.id)">
+        <div class="expanded">
+          <table class="table table-hover">
+            <tr class="f">
+              <th>Name</th>
+              <th>Year</th>
+            </tr>
+            <tr>
+              <td>Kaustubh Vyas</td>
+              <td>2019</td>
+            </tr>
+            <tr>
+              <td>Amit Sachan</td>
+              <td>2018</td>
+            </tr>
+            <tr>
+              <td>Abhas Gupta</td>
+              <td>2018</td>
+            </tr>
+            <tr>
+              <td>Parthe Pardit</td>
+              <td>2016</td>
+            </tr>
+            <tr>
+              <td>Devansh Chawla</td>
+              <td>2015</td>
+            </tr>
+            <tr>
+              <td>Anand Singh</td>
+              <td>2015</td>
+            </tr>
+            <tr>
+              <td>Samarth Bansal</td>
+              <td>2013</td>
+            </tr>
+
+          </table>
+        </div>
       </div>
-    </div>
-    <p class="button mx-auto streched-link" id="6" onclick="overlayClicked(this.id)">Sports Man Of The Year</p><br>
-    <div id="overlay6" onclick="off(this.id)">
-      <div class="expanded">
-        <table class="table table-hover">
-          <tr class="f">
-            <th>Name</th>
-            <th>Year</th>
-          </tr>
-          <tr>
-            <td>Sarvind</td>
-            <td>2019</td>
-          </tr>
-          <tr>
-            <td>Kumar Saurav</td>
-            <td>2018</td>
-          </tr>
-          <tr>
-            <td>Amit Sachan</td>
-            <td>2017</td>
-          </tr>
-          <tr>
-            <td>Siddharth Patel</td>
-            <td>2016</td>
-          </tr>
-          <tr>
-            <td>Bhag Chand Meena </td>
-            <td>2015</td>
-          </tr>
-          <tr>
-            <td>Prashant Burgula</td>
-            <td>2013</td>
-          </tr>
-          <tr>
-            <td>Anand Singh</td>
-            <td>2012</td>
-          </tr>
-          <tr>
-            <td>Abhishek Murmu</td>
-            <td>2011</td>
-          </tr>
-          <tr>
-            <td>Prasad Sawant</td>
-            <td>2008</td>
-          </tr>
-          <tr>
-            <td>Manoj Kumar Meena</td>
-            <td>2006</td>
-          </tr>
-          <tr>
-            <td>Naveen Bazar</td>
-            <td>2003</td>
-          </tr>
-          <tr>
-            <td>Sunil Oberoi</td>
-            <td>2002</td>
-          </tr>
-          <tr>
-            <td>Saurabh Sodhani</td>
-            <td>2001</td>
-          </tr>
-        </table>
+      <p class="button mx-auto streched-link" id="5" onclick="overlayClicked(this.id)">Cult. Man Of The Year</p><br>
+      <div id="overlay5" onclick="off(this.id)">
+        <div class="expanded">
+          <table class="table table-hover">
+            <tr class="f">
+              <th>Name</th>
+              <th>Year</th>
+            </tr>
+            <tr>
+              <td>Abhijit Krishna</td>
+              <td>2017</td>
+            </tr>
+            <tr>
+              <td>Aatish Goyal</td>
+              <td>2015</td>
+            </tr>
+            <tr>
+              <td>Karan Kumbhare</td>
+              <td>2012</td>
+            </tr>
+            <tr>
+              <td>Gaganjeet Singh</td>
+              <td>2011</td>
+            </tr>
+            <tr>
+              <td>Amit Pathak</td>
+              <td>2001</td>
+            </tr>
+            <tr>
+              <td>Amit Pathak</td>
+              <td>2000</td>
+            </tr>
+          </table>
+        </div>
       </div>
-    </div>
-    <p class="button mx-auto streched-link" id="7" onclick="overlayClicked(this.id)">General Secretary</p><br>
-    <div id="overlay7" onclick="off(this.id)">
-      <div class="expanded">
-        <table class="table table-hover">
-          <tr class="f">
-            <th>Name</th>
-            <th>Year</th>
-          </tr>
-          <tr>
-            <td>Kumar Priyanshu</td>
-            <td>2018</td>
-          </tr>
-          <tr>
-            <td>Sanskar Jain</td>
-            <td>2017</td>
-          </tr>
-          <tr>
-            <td>Harsh Kumar Singh</td>
-            <td>2016</td>
-          </tr>
-          <tr>
-            <td>Krishna Agarwal</td>
-            <td>2015</td>
-          </tr>
-          <tr>
-            <td>Manohar Reddy</td>
-            <td>2014</td>
-          </tr>
-          <tr>
-            <td>Manisheel Gautam</td>
-            <td>2013</td>
-          </tr>
-          <tr>
-            <td>Mayank Mundhra</td>
-            <td>2012</td>
-          </tr>
-          <tr>
-            <td>Pravesh Jain</td>
-            <td>2011</td>
-          </tr>
-          <tr>
-            <td>Vishnu N. Suresh</td>
-            <td>2010</td>
-          </tr>
-          <tr>
-            <td>Vishrut Chalsani</td>
-            <td>2009</td>
-          </tr>
-          <tr>
-            <td>Manas Nigam</td>
-            <td>2008</td>
-          </tr>
-          <tr>
-            <td>Mrinal Varshney</td>
-            <td>2007</td>
-          </tr>
-          <tr>
-            <td>Ankit Jain</td>
-            <td>2006</td>
-          </tr>
-          <tr>
-            <td>Abhinav Mangal</td>
-            <td>2005</td>
-          </tr>
-          <tr>
-            <td>Harshit Agarwal</td>
-            <td>2004</td>
-          </tr>
-          <tr>
-            <td>Ankur Shrivastava</td>
-            <td>2003</td>
-          </tr>
-          <tr>
-            <td>Nitesh Dixit</td>
-            <td>2002</td>
-          </tr>
-          <tr>
-            <td>G.R Dev</td>
-            <td>2001</td>
-          </tr>
-          <tr>
-            <td>Gautam Hazari</td>
-            <td>2000</td>
-          </tr>
-          <tr>
-            <td>T.Praveen Pavithram</td>
-            <td>1999</td>
-          </tr>
-          <tr>
-            <td>Ashish Bhujang</td>
-            <td>1998</td>
-          </tr>
-          <tr>
-            <td>Amit Kumar Sinha</td>
-            <td>1997</td>
-          </tr>
-          <tr>
-            <td>Akshat Mehta</td>
-            <td>1996</td>
-          </tr>
-          <tr>
-            <td>Siju Joseph </td>
-            <td>1995</td>
-          </tr>
-          <tr>
-            <td>Dinesh Kashikar</td>
-            <td>1994</td>
-          </tr>
-          <tr>
-            <td>N. Venkatesh</td>
-            <td>1993</td>
-          </tr>
-          <tr>
-            <td>S. Khandelwal</td>
-            <td>1992</td>
-          </tr>
-          <tr>
-            <td>Ajay Pal Singh</td>
-            <td>1991</td>
-          </tr>
-          <tr>
-            <td>Vikas Bhatiya</td>
-            <td>1990</td>
-          </tr>
-        </table>
+      <p class="button mx-auto streched-link" id="6" onclick="overlayClicked(this.id)">Sports Man Of The Year</p><br>
+      <div id="overlay6" onclick="off(this.id)">
+        <div class="expanded">
+          <table class="table table-hover">
+            <tr class="f">
+              <th>Name</th>
+              <th>Year</th>
+            </tr>
+            <tr>
+              <td>Sarvind</td>
+              <td>2019</td>
+            </tr>
+            <tr>
+              <td>Kumar Saurav</td>
+              <td>2018</td>
+            </tr>
+            <tr>
+              <td>Amit Sachan</td>
+              <td>2017</td>
+            </tr>
+            <tr>
+              <td>Siddharth Patel</td>
+              <td>2016</td>
+            </tr>
+            <tr>
+              <td>Bhag Chand Meena </td>
+              <td>2015</td>
+            </tr>
+            <tr>
+              <td>Prashant Burgula</td>
+              <td>2013</td>
+            </tr>
+            <tr>
+              <td>Anand Singh</td>
+              <td>2012</td>
+            </tr>
+            <tr>
+              <td>Abhishek Murmu</td>
+              <td>2011</td>
+            </tr>
+            <tr>
+              <td>Prasad Sawant</td>
+              <td>2008</td>
+            </tr>
+            <tr>
+              <td>Manoj Kumar Meena</td>
+              <td>2006</td>
+            </tr>
+            <tr>
+              <td>Naveen Bazar</td>
+              <td>2003</td>
+            </tr>
+            <tr>
+              <td>Sunil Oberoi</td>
+              <td>2002</td>
+            </tr>
+            <tr>
+              <td>Saurabh Sodhani</td>
+              <td>2001</td>
+            </tr>
+          </table>
+        </div>
       </div>
-    </div>
-    <p class="button mx-auto streched-link" id="8" onclick="overlayClicked(this.id)">Best Office Bearer</p><br>
-    <div id="overlay8" onclick="off(this.id)">
-      <div class="expanded">
-        <table class="table table-hover">
-          <tr class="f">
-            <th>Name</th>
-            <th>Year</th>
-          </tr>
-          <tr>
-            <td>Kumar Priyanshu</td>
-            <td>2019</td>
-          </tr>
-          <tr>
-            <td>Badal Priyadarshan</td>
-            <td>2018</td>
-          </tr>
-          <tr>
-            <td>Harsh Kumar Singh</td>
-            <td>2017</td>
-          </tr>
-          <tr>
-            <td>Saurabh Maheshwari</td>
-            <td>2016</td>
-          </tr>
-          <tr>
-            <td>Manohar Reddy D</td>
-            <td>2015</td>
-          </tr>
-          <tr>
-            <td>Yash Mehta</td>
-            <td>2013</td>
-          </tr>
-          <tr>
-            <td>Rama Krishna Banoth</td>
-            <td>2013</td>
-          </tr>
-          <tr>
-            <td>Sunny Raj</td>
-            <td>2012</td>
-          </tr>
-          <tr>
-            <td>Manisheel Gautam</td>
-            <td>2011</td>
-          </tr>
-          <tr>
-            <td>Ronnie Philip</td>
-            <td>2010</td>
-          </tr>
-          <tr>
-            <td>D. Kamalakhar Rao</td>
-            <td>2007</td>
-          </tr>
-          <tr>
-            <td>Ankit Jain</td>
-            <td>2006</td>
-          </tr>
-          <tr>
-            <td>Abhinav Mangal</td>
-            <td>2005</td>
-          </tr>
-          <tr>
-            <td>Mayank Agarwal</td>
-            <td>2004</td>
-          </tr>
-          <tr>
-            <td>Mayank Agarwal</td>
-            <td>2003</td>
-          </tr>
-          <tr>
-            <td>Kartik Narayan Swami</td>
-            <td>2002</td>
-          </tr>
-          <tr>
-            <td>Ravindra Jain</td>
-            <td>2001</td>
-          </tr>
-          <tr>
-            <td>P.N. Raju</td>
-            <td>2000</td>
-          </tr>
-          <tr>
-            <td>T.Praveen Pavithram</td>
-            <td>1999</td>
-          </tr>
-          <tr>
-            <td>Om Prakash Singh</td>
-            <td>1998</td>
-          </tr>
-          <tr>
-            <td>Amit Kumar Sinha</td>
-            <td>1997</td>
-          </tr>
-          <tr>
-            <td>Rishi Mohan Sanwal</td>
-            <td>1996</td>
-          </tr>
-          <tr>
-            <td>Pragnesh Jethva</td>
-            <td>1995</td>
-          </tr>
-          <tr>
-            <td>Pranav K Jha</td>
-            <td>1995</td>
-          </tr>
-          <tr>
-            <td>Jindal K.Shah</td>
-            <td>1994</td>
-          </tr>
-          <tr>
-            <td>Kiran Godbole</td>
-            <td>1993</td>
-          </tr>
-          <tr>
-            <td>Rajesh Kumar Bhatt</td>
-            <td>1993</td>
-          </tr>
-          <tr>
-            <td>Arvind Ranasaria</td>
-            <td>1993</td>
-          </tr>
-          <tr>
-            <td>Amit Shah</td>
-            <td>1992</td>
-          </tr>
-          <tr>
-            <td>Ajay Pal Singh</td>
-            <td>1992</td>
-          </tr>
-          <tr>
-            <td>Govind Balan</td>
-            <td>1992</td>
-          </tr>
-          <tr>
-            <td>Sunil Khandelwal</td>
-            <td>1991</td>
-          </tr>
-          <tr>
-            <td>Makarand Rajadhyaksha</td>
-            <td>1991</td>
-          </tr>
-          <tr>
-            <td>Vikas Bhatia</td>
-            <td>1990</td>
-          </tr>
-        </table>
+      <p class="button mx-auto streched-link" id="7" onclick="overlayClicked(this.id)">General Secretary</p><br>
+      <div id="overlay7" onclick="off(this.id)">
+        <div class="expanded">
+          <table class="table table-hover">
+            <tr class="f">
+              <th>Name</th>
+              <th>Year</th>
+            </tr>
+            <tr>
+              <td>Kumar Priyanshu</td>
+              <td>2018</td>
+            </tr>
+            <tr>
+              <td>Sanskar Jain</td>
+              <td>2017</td>
+            </tr>
+            <tr>
+              <td>Harsh Kumar Singh</td>
+              <td>2016</td>
+            </tr>
+            <tr>
+              <td>Krishna Agarwal</td>
+              <td>2015</td>
+            </tr>
+            <tr>
+              <td>Manohar Reddy</td>
+              <td>2014</td>
+            </tr>
+            <tr>
+              <td>Manisheel Gautam</td>
+              <td>2013</td>
+            </tr>
+            <tr>
+              <td>Mayank Mundhra</td>
+              <td>2012</td>
+            </tr>
+            <tr>
+              <td>Pravesh Jain</td>
+              <td>2011</td>
+            </tr>
+            <tr>
+              <td>Vishnu N. Suresh</td>
+              <td>2010</td>
+            </tr>
+            <tr>
+              <td>Vishrut Chalsani</td>
+              <td>2009</td>
+            </tr>
+            <tr>
+              <td>Manas Nigam</td>
+              <td>2008</td>
+            </tr>
+            <tr>
+              <td>Mrinal Varshney</td>
+              <td>2007</td>
+            </tr>
+            <tr>
+              <td>Ankit Jain</td>
+              <td>2006</td>
+            </tr>
+            <tr>
+              <td>Abhinav Mangal</td>
+              <td>2005</td>
+            </tr>
+            <tr>
+              <td>Harshit Agarwal</td>
+              <td>2004</td>
+            </tr>
+            <tr>
+              <td>Ankur Shrivastava</td>
+              <td>2003</td>
+            </tr>
+            <tr>
+              <td>Nitesh Dixit</td>
+              <td>2002</td>
+            </tr>
+            <tr>
+              <td>G.R Dev</td>
+              <td>2001</td>
+            </tr>
+            <tr>
+              <td>Gautam Hazari</td>
+              <td>2000</td>
+            </tr>
+            <tr>
+              <td>T.Praveen Pavithram</td>
+              <td>1999</td>
+            </tr>
+            <tr>
+              <td>Ashish Bhujang</td>
+              <td>1998</td>
+            </tr>
+            <tr>
+              <td>Amit Kumar Sinha</td>
+              <td>1997</td>
+            </tr>
+            <tr>
+              <td>Akshat Mehta</td>
+              <td>1996</td>
+            </tr>
+            <tr>
+              <td>Siju Joseph </td>
+              <td>1995</td>
+            </tr>
+            <tr>
+              <td>Dinesh Kashikar</td>
+              <td>1994</td>
+            </tr>
+            <tr>
+              <td>N. Venkatesh</td>
+              <td>1993</td>
+            </tr>
+            <tr>
+              <td>S. Khandelwal</td>
+              <td>1992</td>
+            </tr>
+            <tr>
+              <td>Ajay Pal Singh</td>
+              <td>1991</td>
+            </tr>
+            <tr>
+              <td>Vikas Bhatiya</td>
+              <td>1990</td>
+            </tr>
+          </table>
+        </div>
       </div>
-    </div>
-    <p class="button mx-auto streched-link" id="9" onclick="overlayClicked(this.id)">Best Secretary</p><br>
-    <div id="overlay9" onclick="off(this.id)">
-      <div class="expanded">
-        <table class="table table-hover">
-          <tr class="f">
-            <th>Name</th>
-            <th>Year</th>
-          </tr>
-          <tr>
-            <td>Rajesh Thorve</td>
-            <td>2019</td>
-          </tr>
-          <tr>
-            <td>Sarvind</td>
-            <td>2018</td>
-          </tr>
-          <tr>
-            <td>Achyut Keshav</td>
-            <td>2017</td>
-          </tr>
-          <tr>
-            <td>Ajinkya Shisode</td>
-            <td>2016</td>
-          </tr>
-        </table>
+      <p class="button mx-auto streched-link" id="8" onclick="overlayClicked(this.id)">Best Office Bearer</p><br>
+      <div id="overlay8" onclick="off(this.id)">
+        <div class="expanded">
+          <table class="table table-hover">
+            <tr class="f">
+              <th>Name</th>
+              <th>Year</th>
+            </tr>
+            <tr>
+              <td>Kumar Priyanshu</td>
+              <td>2019</td>
+            </tr>
+            <tr>
+              <td>Badal Priyadarshan</td>
+              <td>2018</td>
+            </tr>
+            <tr>
+              <td>Harsh Kumar Singh</td>
+              <td>2017</td>
+            </tr>
+            <tr>
+              <td>Saurabh Maheshwari</td>
+              <td>2016</td>
+            </tr>
+            <tr>
+              <td>Manohar Reddy D</td>
+              <td>2015</td>
+            </tr>
+            <tr>
+              <td>Yash Mehta</td>
+              <td>2013</td>
+            </tr>
+            <tr>
+              <td>Rama Krishna Banoth</td>
+              <td>2013</td>
+            </tr>
+            <tr>
+              <td>Sunny Raj</td>
+              <td>2012</td>
+            </tr>
+            <tr>
+              <td>Manisheel Gautam</td>
+              <td>2011</td>
+            </tr>
+            <tr>
+              <td>Ronnie Philip</td>
+              <td>2010</td>
+            </tr>
+            <tr>
+              <td>D. Kamalakhar Rao</td>
+              <td>2007</td>
+            </tr>
+            <tr>
+              <td>Ankit Jain</td>
+              <td>2006</td>
+            </tr>
+            <tr>
+              <td>Abhinav Mangal</td>
+              <td>2005</td>
+            </tr>
+            <tr>
+              <td>Mayank Agarwal</td>
+              <td>2004</td>
+            </tr>
+            <tr>
+              <td>Mayank Agarwal</td>
+              <td>2003</td>
+            </tr>
+            <tr>
+              <td>Kartik Narayan Swami</td>
+              <td>2002</td>
+            </tr>
+            <tr>
+              <td>Ravindra Jain</td>
+              <td>2001</td>
+            </tr>
+            <tr>
+              <td>P.N. Raju</td>
+              <td>2000</td>
+            </tr>
+            <tr>
+              <td>T.Praveen Pavithram</td>
+              <td>1999</td>
+            </tr>
+            <tr>
+              <td>Om Prakash Singh</td>
+              <td>1998</td>
+            </tr>
+            <tr>
+              <td>Amit Kumar Sinha</td>
+              <td>1997</td>
+            </tr>
+            <tr>
+              <td>Rishi Mohan Sanwal</td>
+              <td>1996</td>
+            </tr>
+            <tr>
+              <td>Pragnesh Jethva</td>
+              <td>1995</td>
+            </tr>
+            <tr>
+              <td>Pranav K Jha</td>
+              <td>1995</td>
+            </tr>
+            <tr>
+              <td>Jindal K.Shah</td>
+              <td>1994</td>
+            </tr>
+            <tr>
+              <td>Kiran Godbole</td>
+              <td>1993</td>
+            </tr>
+            <tr>
+              <td>Rajesh Kumar Bhatt</td>
+              <td>1993</td>
+            </tr>
+            <tr>
+              <td>Arvind Ranasaria</td>
+              <td>1993</td>
+            </tr>
+            <tr>
+              <td>Amit Shah</td>
+              <td>1992</td>
+            </tr>
+            <tr>
+              <td>Ajay Pal Singh</td>
+              <td>1992</td>
+            </tr>
+            <tr>
+              <td>Govind Balan</td>
+              <td>1992</td>
+            </tr>
+            <tr>
+              <td>Sunil Khandelwal</td>
+              <td>1991</td>
+            </tr>
+            <tr>
+              <td>Makarand Rajadhyaksha</td>
+              <td>1991</td>
+            </tr>
+            <tr>
+              <td>Vikas Bhatia</td>
+              <td>1990</td>
+            </tr>
+          </table>
+        </div>
       </div>
-    </div>
+      <p class="button mx-auto streched-link" id="9" onclick="overlayClicked(this.id)">Best Secretary</p><br>
+      <div id="overlay9" onclick="off(this.id)">
+        <div class="expanded">
+          <table class="table table-hover">
+            <tr class="f">
+              <th>Name</th>
+              <th>Year</th>
+            </tr>
+            <tr>
+              <td>Rajesh Thorve</td>
+              <td>2019</td>
+            </tr>
+            <tr>
+              <td>Sarvind</td>
+              <td>2018</td>
+            </tr>
+            <tr>
+              <td>Achyut Keshav</td>
+              <td>2017</td>
+            </tr>
+            <tr>
+              <td>Ajinkya Shisode</td>
+              <td>2016</td>
+            </tr>
+          </table>
+        </div>
+      </div>
   </div>
 
 
-    <!--- Footer -->
-    <footer>
-        <p style="text-align: center; font-weight: bolder;">&copy; 2020 <strong><em><a href="#" style="font-weight: bolder;">Hostel 2, IIT Bombay.
-        </a></em></strong> </p>
-    </footer>
+  <!--- Footer -->
+  <footer>
+    <p style="text-align: center; font-weight: bolder;">&copy; 2020 <strong><em><a href="#"
+            style="font-weight: bolder;">Hostel 2, IIT Bombay.
+          </a></em></strong> </p>
+  </footer>
 
 
 
-    <script>
-      function overlayClicked(click) {
-        var x = String("overlay" + click)
-        console.log(x)
-        document.getElementById(x).style.display = "block";
-        
-      }
+  <script>
+    function overlayClicked(click) {
+      var x = String("overlay" + click)
+      console.log(x)
+      document.getElementById(x).style.display = "block";
 
-      function off(turn) {
-        var x = String(turn)
-        document.getElementById(x).style.display = "none";
-      }
-    </script>
+    }
+
+    function off(turn) {
+      var x = String(turn)
+      document.getElementById(x).style.display = "none";
+    }
+  </script>
 </body>
 
 </html>
