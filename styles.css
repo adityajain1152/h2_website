@@ -1,7 +1,7 @@
 
 body
 {
-  background-image: url(Pictures/Back2.jpg);
+  background-image: url(Pictures/Among_trees_8.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -10,7 +10,8 @@ html {
   font-family: "Lato", sans-serif;
   box-sizing: border-box;
 }
-h1
+
+.heading h1
 {
   text-align: center;
   text-shadow: 3.5px 3.5px grey;
@@ -18,14 +19,15 @@ h1
   font-weight: lighter;
   font-size: 70px;
   color: white;
-  background-color: black;
-  background-image: url(Pictures/icon2.png);
-  background-position: 1350px -13px;
-  background-repeat: no-repeat;
-  background-size: 130px;
-  border-top: 2px solid lightcyan;
-  border-bottom: 2px solid lightcyan;
-  border-radius: 4px;
+  padding-left: 1px;
+  padding-right: 1px;
+  display: inline-block;
+}
+@media screen and (max-width:500px)
+{
+  .heading h1{
+    font-size:60px;
+  }
 }
 h2
 {
@@ -34,6 +36,7 @@ h2
   font-weight: lighter;
   margin-bottom: 0px;
   margin-top: 0px;
+  padding-top: 7.5px;
 }
 p{
   margin-top: 0px;
@@ -63,7 +66,7 @@ p{
     display: block;
   }
 }
-.card1,.card2,.card3,.card4,.card5,.card6,.card7{
+.card1,.card2,.card3,.card4,.card5,.card6,.card7,.card8{
   background-repeat: no-repeat;
   background-position: -400px 0, 0 0;
 
@@ -105,7 +108,7 @@ p{
           transition: background-position 0s ease;
 }
 
-.card1:hover,.card2:hover,.card3:hover,.card4:hover,.card5:hover,.card6:hover,.card7:hover {
+.card1:hover,.card2:hover,.card3:hover,.card4:hover,.card5:hover,.card6:hover,.card7:hover,.card8:hover {
   background-position: 0 0, 0 0;
 
   -webkit-transition-duration: 0.5s;
@@ -131,12 +134,12 @@ p{
   margin: 20px;
   transition: 0.2s ease-in-out;
 }
-.card1:hover,.card2:hover,.card3:hover,.card4:hover,.card5:hover,.card6:hover,.card7:hover
+.card1:hover,.card2:hover,.card3:hover,.card4:hover,.card5:hover,.card6:hover,.card7:hover,.card8:hover
 {
   border: 3px solid moccasin;
   box-shadow: 20px 20px 12px 0 rgba(0, 0, 0, 0.5);
 }
-.card1:hover img, .card2:hover img,.card3:hover img,.card4:hover img,.card5:hover img,.card6:hover img,.card7:hover img{
+.card1:hover img, .card2:hover img,.card3:hover img,.card4:hover img,.card5:hover img,.card6:hover img,.card7:hover img,.card8:hover img{
   border: 3px solid moccasin;
 }
 
@@ -242,8 +245,33 @@ p{
   border: 3px solid pink;
   margin: 20px;
 }
+.card8 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  border: 3px solid brown;
+  padding: 10px;
+  background-image: linear-gradient(to left,maroon,sandybrown,brown);
+  color: pink;
+}
+.card8 img
+{
+  height: 200px;
+  width: 200px;
+  float: left;
+  border-radius: 500px;
+  border: 3px solid brown;
+  margin: 20px;
+}
+@media screen and (max-width: 1078px) and (min-width: 650px), (max-width: 532px){
+  .card1 img,.card2 img,.card3 img,.card4 img,.card5 img,.card6 img,.card7 img,.card8 img
+  {
+     float: none;
+     display:block;
+     margin:auto;
+  }
+}
 .container {
-  padding: 0 16px;
+  padding: 0px 16px;
 }
 
 .container::after, .row::after {
@@ -273,6 +301,7 @@ p{
   text-align: center;
   cursor: pointer;
   width: 100%;
+  margin-top: 7.5px;
 }
 
 .button:hover {
@@ -321,6 +350,7 @@ p{
   from {opacity: .4}
   to {opacity: 1}
 }
+
 .arrow{
   /*background-image: url(Pictures/X2a.jpg), url(Pictures/X3a.jpg);
   background-position: left,right;
@@ -381,7 +411,7 @@ p{
     font-weight: 600; 
     border-bottom: solid #479BBE; 
     border-radius: 0.5em;
-    color: white !important;
+    color: black !important;
 }
 
 .navbar-nav .nav-link {
@@ -444,4 +474,73 @@ footer a:hover {
   color:  #479BBE;
   text-decoration-color: white;
 }
+.dropbtn2 {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding-top: 4.4vh;
+  padding-bottom: 4.4vh;
+}
 
+.dropdown2 {
+  position: relative;
+ float: right;
+}
+
+ .heading{
+    background-color: black;
+    border-top: 2px solid lightcyan;
+    border-bottom: 2px solid lightcyan;
+    border-radius: 4px;
+    background-image: url(Pictures/icon2.png);
+    background-position: 1vw -2vh;
+    background-repeat: no-repeat;
+    background-size: 8em;
+    text-align: center;
+ }
+
+.dropdown2-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown2-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown2-content a:hover {background-color: lemonchiffon;}
+
+.dropdown2:hover .dropdown2-content {
+  display: block;
+}
+
+.dropdown2:hover .dropbtn2 {
+  background-color: rgb(80,80,80);
+}
+@media screen and (max-width:855px)
+{
+  .dropbtn2 {
+    padding: 16px;
+   }
+    .dropdown2
+    {
+      float:none;
+      display: inline-block;
+    }
+}
+@media screen and (max-width: 1106px){
+  .heading{
+   background-image: none; 
+}
+}
